@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF7445C1C94A02800DBE347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7445B1C94A02800DBE347 /* main.m */; };
+		1CF7445F1C94A02800DBE347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7445E1C94A02800DBE347 /* AppDelegate.m */; };
+		1CF744621C94A02800DBE347 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF744611C94A02800DBE347 /* ViewController.m */; };
+		1CF744651C94A02800DBE347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF744631C94A02800DBE347 /* Main.storyboard */; };
+		1CF744671C94A02800DBE347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF744661C94A02800DBE347 /* Assets.xcassets */; };
+		1CF7446A1C94A02800DBE347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF744681C94A02800DBE347 /* LaunchScreen.storyboard */; };
+		1CF744751C94A02800DBE347 /* Dotted_Circle_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF744741C94A02800DBE347 /* Dotted_Circle_ViewTests.m */; };
+		1CF744801C94A02800DBE347 /* Dotted_Circle_ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7447F1C94A02800DBE347 /* Dotted_Circle_ViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CF744711C94A02800DBE347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF7444F1C94A02800DBE347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF744561C94A02800DBE347;
+			remoteInfo = "Dotted Circle View";
+		};
+		1CF7447C1C94A02800DBE347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF7444F1C94A02800DBE347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF744561C94A02800DBE347;
+			remoteInfo = "Dotted Circle View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF744571C94A02800DBE347 /* Dotted Circle View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dotted Circle View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF7445B1C94A02800DBE347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CF7445D1C94A02800DBE347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CF7445E1C94A02800DBE347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CF744601C94A02800DBE347 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CF744611C94A02800DBE347 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CF744641C94A02800DBE347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CF744661C94A02800DBE347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CF744691C94A02800DBE347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CF7446B1C94A02800DBE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF744701C94A02800DBE347 /* Dotted Circle ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dotted Circle ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF744741C94A02800DBE347 /* Dotted_Circle_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dotted_Circle_ViewTests.m; sourceTree = "<group>"; };
+		1CF744761C94A02800DBE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF7447B1C94A02800DBE347 /* Dotted Circle ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dotted Circle ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF7447F1C94A02800DBE347 /* Dotted_Circle_ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dotted_Circle_ViewUITests.m; sourceTree = "<group>"; };
+		1CF744811C94A02800DBE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF744541C94A02800DBE347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF7446D1C94A02800DBE347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF744781C94A02800DBE347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF7444E1C94A02800DBE347 = {
+			isa = PBXGroup;
+			children = (
+				1CF744591C94A02800DBE347 /* Dotted Circle View */,
+				1CF744731C94A02800DBE347 /* Dotted Circle ViewTests */,
+				1CF7447E1C94A02800DBE347 /* Dotted Circle ViewUITests */,
+				1CF744581C94A02800DBE347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF744581C94A02800DBE347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF744571C94A02800DBE347 /* Dotted Circle View.app */,
+				1CF744701C94A02800DBE347 /* Dotted Circle ViewTests.xctest */,
+				1CF7447B1C94A02800DBE347 /* Dotted Circle ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CF744591C94A02800DBE347 /* Dotted Circle View */ = {
+			isa = PBXGroup;
+			children = (
+				1CF7445D1C94A02800DBE347 /* AppDelegate.h */,
+				1CF7445E1C94A02800DBE347 /* AppDelegate.m */,
+				1CF744601C94A02800DBE347 /* ViewController.h */,
+				1CF744611C94A02800DBE347 /* ViewController.m */,
+				1CF744631C94A02800DBE347 /* Main.storyboard */,
+				1CF744661C94A02800DBE347 /* Assets.xcassets */,
+				1CF744681C94A02800DBE347 /* LaunchScreen.storyboard */,
+				1CF7446B1C94A02800DBE347 /* Info.plist */,
+				1CF7445A1C94A02800DBE347 /* Supporting Files */,
+			);
+			path = "Dotted Circle View";
+			sourceTree = "<group>";
+		};
+		1CF7445A1C94A02800DBE347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF7445B1C94A02800DBE347 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF744731C94A02800DBE347 /* Dotted Circle ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF744741C94A02800DBE347 /* Dotted_Circle_ViewTests.m */,
+				1CF744761C94A02800DBE347 /* Info.plist */,
+			);
+			path = "Dotted Circle ViewTests";
+			sourceTree = "<group>";
+		};
+		1CF7447E1C94A02800DBE347 /* Dotted Circle ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF7447F1C94A02800DBE347 /* Dotted_Circle_ViewUITests.m */,
+				1CF744811C94A02800DBE347 /* Info.plist */,
+			);
+			path = "Dotted Circle ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CF744561C94A02800DBE347 /* Dotted Circle View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF744841C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle View" */;
+			buildPhases = (
+				1CF744531C94A02800DBE347 /* Sources */,
+				1CF744541C94A02800DBE347 /* Frameworks */,
+				1CF744551C94A02800DBE347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dotted Circle View";
+			productName = "Dotted Circle View";
+			productReference = 1CF744571C94A02800DBE347 /* Dotted Circle View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CF7446F1C94A02800DBE347 /* Dotted Circle ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF744871C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle ViewTests" */;
+			buildPhases = (
+				1CF7446C1C94A02800DBE347 /* Sources */,
+				1CF7446D1C94A02800DBE347 /* Frameworks */,
+				1CF7446E1C94A02800DBE347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF744721C94A02800DBE347 /* PBXTargetDependency */,
+			);
+			name = "Dotted Circle ViewTests";
+			productName = "Dotted Circle ViewTests";
+			productReference = 1CF744701C94A02800DBE347 /* Dotted Circle ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CF7447A1C94A02800DBE347 /* Dotted Circle ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF7448A1C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle ViewUITests" */;
+			buildPhases = (
+				1CF744771C94A02800DBE347 /* Sources */,
+				1CF744781C94A02800DBE347 /* Frameworks */,
+				1CF744791C94A02800DBE347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF7447D1C94A02800DBE347 /* PBXTargetDependency */,
+			);
+			name = "Dotted Circle ViewUITests";
+			productName = "Dotted Circle ViewUITests";
+			productReference = 1CF7447B1C94A02800DBE347 /* Dotted Circle ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CF7444F1C94A02800DBE347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Redonkulous Apps";
+				TargetAttributes = {
+					1CF744561C94A02800DBE347 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1CF7446F1C94A02800DBE347 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1CF744561C94A02800DBE347;
+					};
+					1CF7447A1C94A02800DBE347 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1CF744561C94A02800DBE347;
+					};
+				};
+			};
+			buildConfigurationList = 1CF744521C94A02800DBE347 /* Build configuration list for PBXProject "Dotted Circle View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CF7444E1C94A02800DBE347;
+			productRefGroup = 1CF744581C94A02800DBE347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF744561C94A02800DBE347 /* Dotted Circle View */,
+				1CF7446F1C94A02800DBE347 /* Dotted Circle ViewTests */,
+				1CF7447A1C94A02800DBE347 /* Dotted Circle ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF744551C94A02800DBE347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF7446A1C94A02800DBE347 /* LaunchScreen.storyboard in Resources */,
+				1CF744671C94A02800DBE347 /* Assets.xcassets in Resources */,
+				1CF744651C94A02800DBE347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF7446E1C94A02800DBE347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF744791C94A02800DBE347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF744531C94A02800DBE347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF744621C94A02800DBE347 /* ViewController.m in Sources */,
+				1CF7445F1C94A02800DBE347 /* AppDelegate.m in Sources */,
+				1CF7445C1C94A02800DBE347 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF7446C1C94A02800DBE347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF744751C94A02800DBE347 /* Dotted_Circle_ViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF744771C94A02800DBE347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF744801C94A02800DBE347 /* Dotted_Circle_ViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF744721C94A02800DBE347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF744561C94A02800DBE347 /* Dotted Circle View */;
+			targetProxy = 1CF744711C94A02800DBE347 /* PBXContainerItemProxy */;
+		};
+		1CF7447D1C94A02800DBE347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF744561C94A02800DBE347 /* Dotted Circle View */;
+			targetProxy = 1CF7447C1C94A02800DBE347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CF744631C94A02800DBE347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF744641C94A02800DBE347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CF744681C94A02800DBE347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF744691C94A02800DBE347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CF744821C94A02800DBE347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CF744831C94A02800DBE347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CF744851C94A02800DBE347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dotted Circle View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Dotted-Circle-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CF744861C94A02800DBE347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dotted Circle View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Dotted-Circle-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CF744881C94A02800DBE347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dotted Circle ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Dotted-Circle-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dotted Circle View.app/Dotted Circle View";
+			};
+			name = Debug;
+		};
+		1CF744891C94A02800DBE347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dotted Circle ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Dotted-Circle-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dotted Circle View.app/Dotted Circle View";
+			};
+			name = Release;
+		};
+		1CF7448B1C94A02800DBE347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dotted Circle ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Dotted-Circle-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dotted Circle View";
+			};
+			name = Debug;
+		};
+		1CF7448C1C94A02800DBE347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dotted Circle ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redonkulousapps.Dotted-Circle-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dotted Circle View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF744521C94A02800DBE347 /* Build configuration list for PBXProject "Dotted Circle View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF744821C94A02800DBE347 /* Debug */,
+				1CF744831C94A02800DBE347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF744841C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF744851C94A02800DBE347 /* Debug */,
+				1CF744861C94A02800DBE347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CF744871C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF744881C94A02800DBE347 /* Debug */,
+				1CF744891C94A02800DBE347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CF7448A1C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF7448B1C94A02800DBE347 /* Debug */,
+				1CF7448C1C94A02800DBE347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CF7444F1C94A02800DBE347 /* Project object */;
+}
