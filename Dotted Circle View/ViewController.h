@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DottedCircleView.h"
 
 @interface ViewController : UIViewController
 

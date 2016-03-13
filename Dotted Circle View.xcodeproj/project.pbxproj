@@ -15,6 +15,7 @@
 		1CF7446A1C94A02800DBE347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF744681C94A02800DBE347 /* LaunchScreen.storyboard */; };
 		1CF744751C94A02800DBE347 /* Dotted_Circle_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF744741C94A02800DBE347 /* Dotted_Circle_ViewTests.m */; };
 		1CF744801C94A02800DBE347 /* Dotted_Circle_ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7447F1C94A02800DBE347 /* Dotted_Circle_ViewUITests.m */; };
+		1CF744911C94A1EA00DBE347 /* DottedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF744901C94A1EA00DBE347 /* DottedCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1CF7447B1C94A02800DBE347 /* Dotted Circle ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dotted Circle ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF7447F1C94A02800DBE347 /* Dotted_Circle_ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dotted_Circle_ViewUITests.m; sourceTree = "<group>"; };
 		1CF744811C94A02800DBE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF7448F1C94A1EA00DBE347 /* DottedCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DottedCircleView.h; sourceTree = "<group>"; };
+		1CF744901C94A1EA00DBE347 /* DottedCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DottedCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1CF7445E1C94A02800DBE347 /* AppDelegate.m */,
 				1CF744601C94A02800DBE347 /* ViewController.h */,
 				1CF744611C94A02800DBE347 /* ViewController.m */,
+				1CF7448F1C94A1EA00DBE347 /* DottedCircleView.h */,
+				1CF744901C94A1EA00DBE347 /* DottedCircleView.m */,
 				1CF744631C94A02800DBE347 /* Main.storyboard */,
 				1CF744661C94A02800DBE347 /* Assets.xcassets */,
 				1CF744681C94A02800DBE347 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				1CF744621C94A02800DBE347 /* ViewController.m in Sources */,
 				1CF7445F1C94A02800DBE347 /* AppDelegate.m in Sources */,
+				1CF744911C94A1EA00DBE347 /* DottedCircleView.m in Sources */,
 				1CF7445C1C94A02800DBE347 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

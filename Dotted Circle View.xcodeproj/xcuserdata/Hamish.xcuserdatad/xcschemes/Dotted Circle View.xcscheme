@@ -5,6 +5,23 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES"
+            hideIssues = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1CF744561C94A02800DBE347"
+               BuildableName = "Dotted Circle View.app"
+               BlueprintName = "Dotted Circle View"
+               ReferencedContainer = "container:Dotted Circle View.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +29,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1CF7446F1C94A02800DBE347"
+               BuildableName = "Dotted Circle ViewTests.xctest"
+               BlueprintName = "Dotted Circle ViewTests"
+               ReferencedContainer = "container:Dotted Circle View.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1CF7447A1C94A02800DBE347"
+               BuildableName = "Dotted Circle ViewUITests.xctest"
+               BlueprintName = "Dotted Circle ViewUITests"
+               ReferencedContainer = "container:Dotted Circle View.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1CF744561C94A02800DBE347"
+            BuildableName = "Dotted Circle View.app"
+            BlueprintName = "Dotted Circle View"
+            ReferencedContainer = "container:Dotted Circle View.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +72,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1CF744561C94A02800DBE347"
+            BuildableName = "Dotted Circle View.app"
+            BlueprintName = "Dotted Circle View"
+            ReferencedContainer = "container:Dotted Circle View.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +91,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1CF744561C94A02800DBE347"
+            BuildableName = "Dotted Circle View.app"
+            BlueprintName = "Dotted Circle View"
+            ReferencedContainer = "container:Dotted Circle View.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
