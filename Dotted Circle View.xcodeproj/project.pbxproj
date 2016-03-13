@@ -16,6 +16,7 @@
 		1CF744751C94A02800DBE347 /* Dotted_Circle_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF744741C94A02800DBE347 /* Dotted_Circle_ViewTests.m */; };
 		1CF744801C94A02800DBE347 /* Dotted_Circle_ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7447F1C94A02800DBE347 /* Dotted_Circle_ViewUITests.m */; };
 		1CF744911C94A1EA00DBE347 /* DottedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF744901C94A1EA00DBE347 /* DottedCircleView.m */; };
+		1CF744971C959C2800DBE347 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CF744961C959C2800DBE347 /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1CF744811C94A02800DBE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CF7448F1C94A1EA00DBE347 /* DottedCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DottedCircleView.h; sourceTree = "<group>"; };
 		1CF744901C94A1EA00DBE347 /* DottedCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DottedCircleView.m; sourceTree = "<group>"; };
+		1CF744961C959C2800DBE347 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1CF7445E1C94A02800DBE347 /* AppDelegate.m */,
 				1CF744601C94A02800DBE347 /* ViewController.h */,
 				1CF744611C94A02800DBE347 /* ViewController.m */,
+				1CF744961C959C2800DBE347 /* cat.jpg */,
 				1CF7448F1C94A1EA00DBE347 /* DottedCircleView.h */,
 				1CF744901C94A1EA00DBE347 /* DottedCircleView.m */,
 				1CF744631C94A02800DBE347 /* Main.storyboard */,
@@ -250,6 +253,7 @@
 			files = (
 				1CF7446A1C94A02800DBE347 /* LaunchScreen.storyboard in Resources */,
 				1CF744671C94A02800DBE347 /* Assets.xcassets in Resources */,
+				1CF744971C959C2800DBE347 /* cat.jpg in Resources */,
 				1CF744651C94A02800DBE347 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +508,7 @@
 				1CF744861C94A02800DBE347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CF744871C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				1CF744891C94A02800DBE347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CF7448A1C94A02800DBE347 /* Build configuration list for PBXNativeTarget "Dotted Circle ViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				1CF7448C1C94A02800DBE347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,6 +14,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor greenColor];
+    
     DottedCircleView* v = [[DottedCircleView alloc] init];
     v.frame = self.view.frame;
     v.dotColor = [UIColor redColor];
@@ -21,9 +23,15 @@
     v.dotDiameter = 20.0;
     [self.view addSubview:v];
     
-
+    UIImageView* i = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, v.frame.size.width*1.5, v.frame.size.width)];
+    i.center = v.center;
+    i.image = [UIImage imageNamed:@"cat.jpg"];
+    i.contentMode = UIViewContentModeScaleAspectFit;
+    [v addSubview:i];
 }
 
+
+// legacy code
 -(void) addCircleDotLayer {
     // your dot diameter.
     CGFloat dotDiameter = 10.0;
